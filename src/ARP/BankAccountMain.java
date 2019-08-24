@@ -13,14 +13,16 @@ public class BankAccountMain {
 		CheckingAccount checkingAccount = new CheckingAccount("SRK", 1000000.00, 0.0);
 		SavingsAccount savingsAccount = new SavingsAccount("SRK", 5000000.00, 10.5);
 		BankAccountMain bAccountMain = new BankAccountMain(checkingAccount, savingsAccount);
-		
-		bAccountMain.checkingAccount.diposit();
+
+		bAccountMain.checkingAccount.deposit();
 		bAccountMain.checkingAccount.processCheck();
 		bAccountMain.checkingAccount.withdrawal();
 		
-		bAccountMain.savingsAccount.diposit();
+		System.out.println("\n");
+		
+		bAccountMain.savingsAccount.deposit();
 		bAccountMain.savingsAccount.dipositeMonthlyInterest();
 		bAccountMain.savingsAccount.withdrawal();
-		
+
 	}
 }

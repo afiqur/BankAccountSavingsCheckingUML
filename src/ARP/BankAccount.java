@@ -9,7 +9,7 @@ public abstract class BankAccount {
 		this.balance = balance;
 	}
 
-	public void diposit() {
+	public void deposit() {
 		System.out.println("Owners Name: " + owner + "\nOwners Balance: " + balance + "$");
 	}
 
