@@ -21,7 +21,7 @@ public class BankAccountMain {
 		System.out.println("\n");
 		
 		bAccountMain.savingsAccount.deposit();
-		bAccountMain.savingsAccount.dipositeMonthlyInterest();
+		bAccountMain.savingsAccount.depositeMonthlyInterest();
 		bAccountMain.savingsAccount.withdrawal();
 
 	}

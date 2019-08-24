@@ -8,7 +8,7 @@ public class SavingsAccount extends BankAccount {
 		this.annualInterestRate = annualInterestRate;
 	}
 
-	public void dipositeMonthlyInterest() {
+	public void depositeMonthlyInterest() {
 		System.out.println("Monthly Interest Rate: " + annualInterestRate + "%");
 	}
 
